@@ -1,0 +1,7 @@
+mutation AddTodo($name: String!){
+  addTodo(name: $name){
+    name
+    _id
+    createDate
+  }
+}
